@@ -97,9 +97,6 @@ body {
 /*********************************************
  * NAVIGATION CONTROLS
  *********************************************/
-.reveal aside.controls {
-  direction: ltr; }
-
 .reveal .controls div.navigate-left,
 .reveal .controls div.navigate-left.enabled {
   border-right-color: #3b759e; }
@@ -147,3 +144,12 @@ body {
  *********************************************/
 .reveal .slide-number {
   color: #3b759e; }
+
+/*********************************************
+ * RTL shit
+ * *******************************************/
+.reveal aside.controls {
+  direction: ltr; }
+.reveal ol, .reveal ul { text-align: right; }
+.reveal pre { direction: ltr; padding:1em;}
+.reveal pre { direction: ltr; padding:1em;}
